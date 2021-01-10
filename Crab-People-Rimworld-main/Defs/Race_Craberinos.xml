@@ -10,6 +10,22 @@
                  <li>
                     <body>Craberino/Body/</body>
                     <head>Craberino/Head/</head>
+				</li>
+				<li>
+					<lifeStageDefs>
+                    	<li>HumanlikeCrabAdult</li>
+                	</lifeStageDefs>
+					<body>Craberino/Body/</body>
+                    <head>Craberino/Head/</head>
+					<customDrawSize>(1.2, 1.2)</customDrawSize>
+                </li>
+				<li>
+					<lifeStageDefs>
+                    	<li>CrabBaby</li>
+                	</lifeStageDefs>
+					<body>Craberino/Body/</body>
+                    <head>Craberino/Head/</head>
+					<customDrawSize>(0.5, 0.5)</customDrawSize>
                 </li>
             </graphicPaths>
 
@@ -25,13 +41,17 @@
                 <forcedRaceTraitEntries>
                     <li>
                         <defName>Psychopath</defName>
-                        <chance>50</chance>
+                        <chance>80</chance>
 					</li>
 					<li>
 						<defName>Beauty</defName>
 						<degree>2</degree>
                         <chance>90</chance>
                     </li>
+					<li>
+						<defName>Bloodlust</defName>
+						<chance>50</chance>
+					</li>
                 </forcedRaceTraitEntries>
 
             <maxDamageForSocialfight>6</maxDamageForSocialfight>
@@ -54,6 +74,7 @@
 
                 <useGenderedHeads>true</useGenderedHeads>
                 <useGenderedBodies>false</useGenderedBodies>
+				
 
                 <colorChannels>
                     <li>
@@ -105,6 +126,14 @@
                 </bodyAddons>
             </alienPartGenerator>
         </generalSettings>
+		<comps>
+					<li Class="CompProperties_EggLayer">
+						<eggFertilizedDef>EggCraberoFertilized</eggFertilizedDef>
+						<eggFertilizationCountMax>1</eggFertilizationCountMax>
+						<eggLayIntervalDays>10.5</eggLayIntervalDays>
+						<eggCountRange>1</eggCountRange>
+					</li>
+				</comps>
 
         <thoughtSettings>
 			<replacerList>
@@ -243,11 +272,15 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<!-- These affect stats and if your Race is ready to Lay eggs or be milked if you set that up in the LifeStage, it also determins when your Race is Sexualy Mature and can Reproduce which is not used by Humanlikes in Vanilla -->
-
 				<li>
-					<def>HumanlikeAdult</def>
+					<def>CrabBaby</def>
 					<minAge>0</minAge>
 				</li>
+				<li>
+					<def>HumanlikeCrabAdult</def>
+					<minAge>1</minAge>
+				</li>
+				
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
@@ -286,6 +319,10 @@
 			<IncomingDamageFactor>0.6</IncomingDamageFactor>
 			<AimingDelayFactor>0.6</AimingDelayFactor>
 			<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+			<SwimSpeed>18.9</SwimSpeed>
+			<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+      		<ArmorRating_Sharp>0.99</ArmorRating_Sharp>
+      		<PsychicSensitivity>0.60</PsychicSensitivity>
 		</statBases>
 		
 		<tools Inherit="False">

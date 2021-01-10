@@ -4,6 +4,117 @@
         <defName>Crabchild</defName>
         <title>Crabchild</title>
         <titleShort>Crabchild</titleShort>
+        <baseDescription>This is a Crabchild. Also sometimes called craberino.</baseDescription>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>Crabber</li>
+        </spawnCategories>
+        <skillGains>
+            <li>
+                <defName>Plants</defName>
+                <amount>4</amount>
+            </li>
+            <li>
+                <defName>Animals</defName>
+                <amount>10</amount>
+            </li>
+        </skillGains>
+        <workDisables>
+            <li>Artistic</li>
+        </workDisables>
+        <forcedItems>
+            <Steel>7~25</Steel>
+        </forcedItems>
+        <bioAgeRange>
+            <min>15</min>
+            <max>70</max>
+        </bioAgeRange>
+        <chronoAgeRange>
+            <min>0</min>
+            <max>100</max>
+        </chronoAgeRange>
+    </AlienRace.BackstoryDef>
+    <!--SPacer-->
+    <AlienRace.BackstoryDef>
+        <defName>Crabmedchild</defName>
+        <title>Crab medic kiddo</title>
+        <titleShort>Crabmedkiddy</titleShort>
+        <baseDescription>This is a crabman. Also sometimes called craberino. This one used to plant medicine before.</baseDescription>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>Crabber</li>
+        </spawnCategories>
+        <skillGains>
+            <li>
+                <defName>Plants</defName>
+                <amount>10</amount>
+            </li>
+            <li>
+                <defName>Medical</defName>
+                <amount>7</amount>
+            </li>
+        </skillGains>
+        <workDisables>
+            <li>Artistic</li>
+        </workDisables>
+        <forcedItems>
+            <medicine>8</medicine>
+        </forcedItems>
+        <bioAgeRange>
+            <min>15</min>
+            <max>70</max>
+        </bioAgeRange>
+        <chronoAgeRange>
+            <min>2</min>
+            <max>70</max>
+        </chronoAgeRange>
+    </AlienRace.BackstoryDef>
+    <!--SPacer-->
+    <AlienRace.BackstoryDef>
+        <defName>Crabmedic</defName>
+        <title>Crabmedic</title>
+        <titleShort>Crabmed</titleShort>
+        <baseDescription>This is a crabman. Also sometimes called craberino. This one was a medic in many of the space crab wars..</baseDescription>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>Crabber</li>
+        </spawnCategories>
+        <skillGains>
+            <li>
+                <defName>Plants</defName>
+                <amount>7</amount>
+            </li>
+            <li>
+                <defName>Medical</defName>
+                <amount>12</amount>
+            </li>
+            <li>
+                <defName>Shooting</defName>
+                <amount>7</amount>
+            </li>
+        </skillGains>
+        <workDisables>
+            <li>Artistic</li>
+        </workDisables>
+        <forcedItems>
+            <medicine>8</medicine>
+        </forcedItems>
+        <bioAgeRange>
+            <min>15</min>
+            <max>70</max>
+        </bioAgeRange>
+        <chronoAgeRange>
+            <min>12</min>
+            <max>70</max>
+        </chronoAgeRange>
+    </AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef>
+        <defName>Crabchild</defName>
+        <title>Crabchild</title>
+        <titleShort>Crabchild</titleShort>
         <baseDescription>NAME is a Crabchild. Also sometimes called craberino.</baseDescription>
         <bodyTypeGlobal>Hulk</bodyTypeGlobal>
         <slot>Childhood</slot>

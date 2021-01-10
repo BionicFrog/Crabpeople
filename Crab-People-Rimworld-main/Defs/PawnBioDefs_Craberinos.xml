@@ -15,5 +15,21 @@
       <li>Craberino</li>
     </validRaces>
 </AlienRace.PawnBioDef>
+<!---Spacer-->
+<AlienRace.PawnBioDef>
+    <defName>Crabmedkiddy</defName>
+    <childhoodDef>Crabmedchild</childhoodDef>
+    <adulthoodDef>Crabmedic</adulthoodDef>
+    <gender>Either</gender> <!-- other options are Male and Female -->
+    <name>
+      <first>Crabberen</first>
+      <last>Crabski</last>
+      <nick>Crabbo</nick>
+    </name>
+    <factionLeader>false</factionLeader>
+    <validRaces>
+      <li>Craberino</li>
+    </validRaces>
+</AlienRace.PawnBioDef>
 
 </Defs>
